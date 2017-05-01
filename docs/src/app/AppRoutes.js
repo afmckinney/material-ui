@@ -6,65 +6,65 @@ import {
 } from 'react-router';
 
 // Here we define all our material-ui ReactComponents.
-import Master from './components/Master';
-import Home from './components/pages/Home';
+import Master from './gh-pages/Master';
+import Home from './gh-pages/pages/Home';
 
-import RequiredKnowledge from './components/pages/get-started/RequiredKnowledge';
-import Installation from './components/pages/get-started/Installation';
-import Usage from './components/pages/get-started/Usage';
-import Examples from './components/pages/get-started/Examples';
-import ServerRendering from './components/pages/get-started/ServerRendering';
+import RequiredKnowledge from './gh-pages/pages/get-started/RequiredKnowledge';
+import Installation from './gh-pages/pages/get-started/Installation';
+import Usage from './gh-pages/pages/get-started/Usage';
+import Examples from './gh-pages/pages/get-started/Examples';
+import ServerRendering from './gh-pages/pages/get-started/ServerRendering';
 
-import Colors from './components/pages/customization/Colors';
-import Themes from './components/pages/customization/Themes';
-import Styles from './components/pages/customization/Styles';
+import Colors from './gh-pages/pages/customization/Colors';
+import Themes from './gh-pages/pages/customization/Themes';
+import Styles from './gh-pages/pages/customization/Styles';
 
-import AppBarPage from './components/pages/components/AppBar/Page';
-import AutoCompletePage from './components/pages/components/AutoComplete/Page';
-import AvatarPage from './components/pages/components/Avatar/Page';
-import BadgePage from './components/pages/components/Badge/Page';
-import BottomNavigationPage from './components/pages/components/BottomNavigation/Page';
-import CardPage from './components/pages/components/Card/Page';
-import ChipPage from './components/pages/components/Chip/Page';
-import CircularProgressPage from './components/pages/components/CircularProgress/Page';
-import CheckboxPage from './components/pages/components/Checkbox/Page';
-import DatePicker from './components/pages/components/DatePicker/Page';
-import DialogPage from './components/pages/components/Dialog/Page';
-import DividerPage from './components/pages/components/Divider/Page';
-import DrawerPage from './components/pages/components/Drawer/Page';
-import DropDownMenuPage from './components/pages/components/DropDownMenu/Page';
-import FlatButtonPage from './components/pages/components/FlatButton/Page';
-import FloatingActionButtonPage from './components/pages/components/FloatingActionButton/Page';
-import FontIconPage from './components/pages/components/FontIcon/Page';
-import GridListPage from './components/pages/components/GridList/Page';
-import IconButtonPage from './components/pages/components/IconButton/Page';
-import IconMenuPage from './components/pages/components/IconMenu/Page';
-import ListPage from './components/pages/components/List/Page';
-import LinearProgressPage from './components/pages/components/LinearProgress/Page';
-import PaperPage from './components/pages/components/Paper/Page';
-import MenuPage from './components/pages/components/Menu/Page';
-import PopoverPage from './components/pages/components/Popover/Page';
-import RaisedButtonPage from './components/pages/components/RaisedButton/Page';
-import RefreshIndicatorPage from './components/pages/components/RefreshIndicator/Page';
-import RadioButtonPage from './components/pages/components/RadioButton/Page';
-import SelectField from './components/pages/components/SelectField/Page';
-import SliderPage from './components/pages/components/Slider/Page';
-import SnackbarPage from './components/pages/components/Snackbar/Page';
-import SvgIconPage from './components/pages/components/SvgIcon/Page';
-import SubheaderPage from './components/pages/components/Subheader/Page';
-import TablePage from './components/pages/components/Table/Page';
-import TabsPage from './components/pages/components/Tabs/Page';
-import TextFieldPage from './components/pages/components/TextField/Page';
-import TimePickerPage from './components/pages/components/TimePicker/Page';
-import TogglePage from './components/pages/components/Toggle/Page';
-import ToolbarPage from './components/pages/components/Toolbar/Page';
+import AppBarPage from './gh-pages/pages/components/AppBar/Page';
+import AutoCompletePage from './gh-pages/pages/components/AutoComplete/Page';
+import AvatarPage from './gh-pages/pages/components/Avatar/Page';
+import BadgePage from './gh-pages/pages/components/Badge/Page';
+import BottomNavigationPage from './gh-pages/pages/components/BottomNavigation/Page';
+import CardPage from './gh-pages/pages/components/Card/Page';
+import ChipPage from './gh-pages/pages/components/Chip/Page';
+import CircularProgressPage from './gh-pages/pages/components/CircularProgress/Page';
+import CheckboxPage from './gh-pages/pages/components/Checkbox/Page';
+import DatePicker from './gh-pages/pages/components/DatePicker/Page';
+import DialogPage from './gh-pages/pages/components/Dialog/Page';
+import DividerPage from './gh-pages/pages/components/Divider/Page';
+import DrawerPage from './gh-pages/pages/components/Drawer/Page';
+import DropDownMenuPage from './gh-pages/pages/components/DropDownMenu/Page';
+import FlatButtonPage from './gh-pages/pages/components/FlatButton/Page';
+import FloatingActionButtonPage from './gh-pages/pages/components/FloatingActionButton/Page';
+import FontIconPage from './gh-pages/pages/components/FontIcon/Page';
+import GridListPage from './gh-pages/pages/components/GridList/Page';
+import IconButtonPage from './gh-pages/pages/components/IconButton/Page';
+import IconMenuPage from './gh-pages/pages/components/IconMenu/Page';
+import ListPage from './gh-pages/pages/components/List/Page';
+import LinearProgressPage from './gh-pages/pages/components/LinearProgress/Page';
+import PaperPage from './gh-pages/pages/components/Paper/Page';
+import MenuPage from './gh-pages/pages/components/Menu/Page';
+import PopoverPage from './gh-pages/pages/components/Popover/Page';
+import RaisedButtonPage from './gh-pages/pages/components/RaisedButton/Page';
+import RefreshIndicatorPage from './gh-pages/pages/components/RefreshIndicator/Page';
+import RadioButtonPage from './gh-pages/pages/components/RadioButton/Page';
+import SelectField from './gh-pages/pages/components/SelectField/Page';
+import SliderPage from './gh-pages/pages/components/Slider/Page';
+import SnackbarPage from './gh-pages/pages/components/Snackbar/Page';
+import SvgIconPage from './gh-pages/pages/components/SvgIcon/Page';
+import SubheaderPage from './gh-pages/pages/components/Subheader/Page';
+import TablePage from './gh-pages/pages/components/Table/Page';
+import TabsPage from './gh-pages/pages/components/Tabs/Page';
+import TextFieldPage from './gh-pages/pages/components/TextField/Page';
+import TimePickerPage from './gh-pages/pages/components/TimePicker/Page';
+import TogglePage from './gh-pages/pages/components/Toggle/Page';
+import ToolbarPage from './gh-pages/pages/components/Toolbar/Page';
 
-import Community from './components/pages/discover-more/Community';
-import Contributing from './components/pages/discover-more/Contributing';
-import Showcase from './components/pages/discover-more/Showcase';
-import RelatedProjects from './components/pages/discover-more/RelatedProjects';
+import Community from './gh-pages/pages/discover-more/Community';
+import Contributing from './gh-pages/pages/discover-more/Contributing';
+import Showcase from './gh-pages/pages/discover-more/Showcase';
+import RelatedProjects from './gh-pages/pages/discover-more/RelatedProjects';
 
-import StepperPage from './components/pages/components/Stepper/Page';
+import StepperPage from './gh-pages/pages/components/Stepper/Page';
 
 /**
  * Routes: https://github.com/reactjs/react-router/blob/master/docs/API.md#route
@@ -79,6 +79,7 @@ const AppRoutes = (
   <Route path="/" component={Master}>
     <IndexRoute component={Home} />
     <Route path="home" component={Home} />
+
     <Redirect from="get-started" to="/get-started/required-knowledge" />
     <Route path="get-started">
       <Route path="required-knowledge" component={RequiredKnowledge} />
@@ -87,12 +88,14 @@ const AppRoutes = (
       <Route path="examples" component={Examples} />
       <Route path="server-rendering" component={ServerRendering} />
     </Route>
+
     <Redirect from="customization" to="/customization/themes" />
     <Route path="customization">
       <Route path="colors" component={Colors} />
       <Route path="themes" component={Themes} />
       <Route path="styles" component={Styles} />
     </Route>
+
     <Redirect from="components" to="/components/app-bar" />
     <Route path="components">
       <Route path="app-bar" component={AppBarPage} />
@@ -136,6 +139,7 @@ const AppRoutes = (
       <Route path="toggle" component={TogglePage} />
       <Route path="toolbar" component={ToolbarPage} />
     </Route>
+    
     <Redirect from="discover-more" to="/discover-more/community" />
     <Route path="discover-more">
       <Route path="community" component={Community} />
