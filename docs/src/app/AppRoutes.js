@@ -74,7 +74,7 @@ import MicroBitDeviceInformationPage from './gh-pages/pages/components/Microbit/
 import MicroBitDfuControlPage from './gh-pages/pages/components/Microbit/Microbit_Dfu_Control/Page';
 import MicroBitEventPage from './gh-pages/pages/components/Microbit/Microbit_Event/Page';
 import MicroBitGenericAccessPage from './gh-pages/pages/components/Microbit/Microbit_Generic_Access/Page';
-import MicroBitGenericAttributePage from './gh-pages/pages/components/Microbit/Microbit_Generic_attribute/Page';
+import MicroBitGenericAttributePage from './gh-pages/pages/components/Microbit/Microbit_Generic_Attribute/Page';
 import MicroBitIoPinPage from './gh-pages/pages/components/Microbit/Microbit_Io_Pin/Page';
 import MicroBitLedPage from './gh-pages/pages/components/Microbit/Microbit_Led/Page';
 import MicroBitMagnetometerPage from './gh-pages/pages/components/Microbit/Microbit_Magnetometer/Page';

@@ -3,7 +3,7 @@ import Title from 'react-title-component';
 import CodeExample from '../../../../CodeExample';
 import PropTypeDescription from '../../../../PropTypeDescription';
 import MarkdownElement from '../../../../MarkdownElement';
-import microbitGenericAttributeText from './microbit_Generic_Attribute.md';
+import microbitGenericAttributeText from './Microbit_Generic_Attribute.md';
 
 const MicroBitGenericAttributePage = () => (
   <div>
