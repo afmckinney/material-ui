@@ -22,7 +22,7 @@ class HomePage extends Component {
   homePageTitleBanner() {
     const styles = {
       root: {
-        backgroundColor: blue800,
+        backgroundColor: '#00728a',
         overflow: 'hidden',
       },
       svgLogo: {
@@ -31,7 +31,7 @@ class HomePage extends Component {
         height: 157,
       },
       tagline: {
-        color: blue400,
+        color: '#00728a',
         margin: '16px auto 16px auto',
         textAlign: 'center',
         maxWidth: 900,

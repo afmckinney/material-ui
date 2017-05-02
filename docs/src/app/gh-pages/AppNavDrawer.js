@@ -7,7 +7,7 @@ import Subheader from 'material-ui/Subheader';
 import DropDownMenu from 'material-ui/DropDownMenu';
 import MenuItem from 'material-ui/MenuItem';
 import {spacing, typography, zIndex} from 'material-ui/styles';
-import {green400} from 'material-ui/styles/colors';
+// import {green400} from 'material-ui/styles/colors';
 
 const SelectableList = makeSelectable(List);
 
@@ -18,7 +18,7 @@ const styles = {
     color: typography.textFullWhite,
     lineHeight: `${spacing.desktopKeylineIncrement}px`,
     fontWeight: typography.fontWeightLight,
-    backgroundColor: green400,
+    backgroundColor: '#a5cf47',
     paddingLeft: spacing.desktopGutter,
     marginBottom: 8,
   },
