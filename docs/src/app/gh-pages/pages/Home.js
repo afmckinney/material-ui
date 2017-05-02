@@ -7,7 +7,7 @@ import withWidth, {LARGE} from 'material-ui/utils/withWidth';
 import spacing from 'material-ui/styles/spacing';
 import typography from 'material-ui/styles/typography';
 import lightBaseTheme from 'material-ui/styles/baseThemes/lightBaseTheme';
-import {green400, blue400, cyan500, grey200, darkWhite} from 'material-ui/styles/colors';
+import {green400, blue400, blue800, cyan500, grey200, darkWhite} from 'material-ui/styles/colors';
 
 class HomePage extends Component {
 
@@ -22,7 +22,7 @@ class HomePage extends Component {
   homePageTitleBanner() {
     const styles = {
       root: {
-        backgroundColor: blue400,
+        backgroundColor: blue800,
         overflow: 'hidden',
       },
       svgLogo: {
@@ -293,9 +293,9 @@ class HomePage extends Component {
   //   );
   // }
 
-  handleTouchTapDonate = () => {
-    this.context.router.push('/components');
-  };
+  // handleTouchTapDonate = () => {
+  //   this.context.router.push('/components');
+  // };
 
   render() {
     const style = {

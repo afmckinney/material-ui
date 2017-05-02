@@ -273,22 +273,6 @@ class AppNavDrawer extends Component {
                   />,
                 ]}
               />,
-              <ListItem
-                primaryText="Raspberry Pi"
-                primaryTogglesNestedList={true}
-                nestedItems={[
-                  <ListItem
-                    primaryText="Set up as a beacon"
-                    value="/components/checkbox"
-                    href="#/components/checkbox"
-                  />,
-                ]}
-              />,
-              <ListItem
-                primaryText="Arduino Uno"
-                value="/components/flat-button"
-                href="#/components/flat-button"
-              />,
             ]}
           />
 
@@ -296,10 +280,73 @@ class AppNavDrawer extends Component {
             primaryText="Documentation"
             primaryTogglesNestedList={true}
             nestedItems={[
-              <ListItem primaryText="Required Knowledge" value="/get-started/required-knowledge" />,
-              <ListItem primaryText="Installation" value="/get-started/installation" />,
-              <ListItem primaryText="Usage" value="/get-started/usage" />,
-              <ListItem primaryText="Examples" value="/get-started/examples" />,
+              <ListItem primaryText="Introduction" value="/get-started/information" />,
+              <ListItem
+                primaryText="Micro-bit"
+                primaryTogglesNestedList={true}
+                nestedItems={[
+                  <ListItem
+                    primaryText="Accelerometer"
+                    value="/components/microbitaccelerometer"
+                    href="#/components/microbitaccelerometer"
+                  />,
+                  <ListItem
+                    primaryText="Button"
+                    value="/components/microbitbutton"
+                    href="#/components/microbitbutton"
+                  />,
+                  <ListItem
+                    primaryText="Device Information"
+                    value="/components/microbitdeviceinformation"
+                    href="#/components/microbitdeviceinformation"
+                  />,
+                  <ListItem
+                    primaryText="Dfu Control"
+                    value="/components/microbitdfucontrol"
+                    href="#/components/microbitdfucontrol"
+                  />,
+                  <ListItem
+                    primaryText="Event"
+                    value="/components/microbitevent"
+                    href="#/components/microbitevent"
+                  />,
+                  <ListItem
+                    primaryText="Generic Access"
+                    value="/components/microbitgenericaccess"
+                    href="#/components/microbitgenericaccess"
+                  />,
+                  <ListItem
+                    primaryText="Generic Attribute"
+                    value="/components/microbitgenericattribute"
+                    href="#/components/microbitgenericattribute"
+                  />,
+                  <ListItem
+                    primaryText="io Pin"
+                    value="/components/microbitiopin"
+                    href="#/components/microbitiopin"
+                  />,
+                  <ListItem
+                    primaryText="LED"
+                    value="/components/microbitled"
+                    href="#/components/microbitled"
+                  />,
+                  <ListItem
+                    primaryText="Magnetometer"
+                    value="/components/microbitmagnetometer"
+                    href="#/components/microbitmagnetometer"
+                  />,
+                  <ListItem
+                    primaryText="Temperature"
+                    value="/components/microbitemperature"
+                    href="#/components/microbittemperature"
+                  />,
+                  <ListItem
+                    primaryText="UART"
+                    value="/components/microbituart"
+                    href="#/components/microbituart"
+                  />,
+                ]}
+              />,
             ]}
           />
 

@@ -10,6 +10,7 @@ import Master from './gh-pages/Master';
 import Home from './gh-pages/pages/Home';
 
 import RequiredKnowledge from './gh-pages/pages/get-started/RequiredKnowledge';
+import Information from './gh-pages/pages/get-started/Information';
 import Installation from './gh-pages/pages/get-started/Installation';
 import Usage from './gh-pages/pages/get-started/Usage';
 import Examples from './gh-pages/pages/get-started/Examples';
@@ -66,6 +67,22 @@ import RelatedProjects from './gh-pages/pages/discover-more/RelatedProjects';
 
 import StepperPage from './gh-pages/pages/components/Stepper/Page';
 
+import MicroBitPage from './gh-pages/pages/components/Microbit/Page';
+import MicroBitAccelerometerPage from './gh-pages/pages/components/Microbit/Microbit_Accelerometer/Page';
+import MicroBitButtonPage from './gh-pages/pages/components/Microbit/Microbit_Button/Page';
+import MicroBitDeviceInformationPage from './gh-pages/pages/components/Microbit/Microbit_Device_Information/Page';
+import MicroBitDfuControlPage from './gh-pages/pages/components/Microbit/Microbit_Dfu_Control/Page';
+import MicroBitEventPage from './gh-pages/pages/components/Microbit/Microbit_Event/Page';
+import MicroBitGenericAccessPage from './gh-pages/pages/components/Microbit/Microbit_Generic_Access/Page';
+import MicroBitGenericAttributePage from './gh-pages/pages/components/Microbit/Microbit_Generic_attribute/Page';
+import MicroBitIoPinPage from './gh-pages/pages/components/Microbit/Microbit_Io_Pin/Page';
+import MicroBitLedPage from './gh-pages/pages/components/Microbit/Microbit_Led/Page';
+import MicroBitMagnetometerPage from './gh-pages/pages/components/Microbit/Microbit_Magnetometer/Page';
+import MicroBitTemperaturePage from './gh-pages/pages/components/Microbit/Microbit_Temperature/Page';
+import MicroBitUartPage from './gh-pages/pages/components/Microbit/Microbit_Uart/Page';
+
+//import AppBarPage from './gh-pages/pages/documentation/AppBar/Page';
+
 /**
  * Routes: https://github.com/reactjs/react-router/blob/master/docs/API.md#route
  *
@@ -83,6 +100,7 @@ const AppRoutes = (
     <Redirect from="get-started" to="/get-started/required-knowledge" />
     <Route path="get-started">
       <Route path="required-knowledge" component={RequiredKnowledge} />
+      <Route path="information" component={Information} />
       <Route path="installation" component={Installation} />
       <Route path="usage" component={Usage} />
       <Route path="examples" component={Examples} />
@@ -138,8 +156,21 @@ const AppRoutes = (
       <Route path="time-picker" component={TimePickerPage} />
       <Route path="toggle" component={TogglePage} />
       <Route path="toolbar" component={ToolbarPage} />
+      <Route path="microbit" component={MicroBitPage} />
+      <Route path="microbitaccelerometer" component={MicroBitAccelerometerPage} />
+      <Route path="microbitbutton" component={MicroBitButtonPage} />
+      <Route path="microbitdeviceinformation" component={MicroBitDeviceInformationPage} />
+      <Route path="microbitdfucontrol" component={MicroBitDfuControlPage} />
+      <Route path="microbitevent" component={MicroBitEventPage} />
+      <Route path="microbitgenericaccess" component={MicroBitGenericAccessPage} />
+      <Route path="microbitgenericattribute" component={MicroBitGenericAttributePage} />
+      <Route path="microbitiopin" component={MicroBitIoPinPage} />
+      <Route path="microbitled" component={MicroBitLedPage} />
+      <Route path="microbitmagnetometer" component={MicroBitMagnetometerPage} />
+      <Route path="microbittemperature" component={MicroBitTemperaturePage} />
+      <Route path="microbituart" component={MicroBitUartPage} />
     </Route>
-    
+
     <Redirect from="discover-more" to="/discover-more/community" />
     <Route path="discover-more">
       <Route path="community" component={Community} />
