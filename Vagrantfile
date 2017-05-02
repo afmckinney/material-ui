@@ -24,6 +24,7 @@ Vagrant.configure(2) do |config|
   # within the machine from a port on the host machine. In the example below,
   # accessing "localhost:8080" will access port 80 on the guest machine.
   config.vm.network "forwarded_port", guest: 4000, host: 4000
+  config.vm.network "forwarded_port", guest: 3000, host: 3000
 
   # Create a private network, which allows host-only access to the machine
   # using a specific IP.
@@ -61,9 +62,7 @@ Vagrant.configure(2) do |config|
   # documentation for more information about their specific syntax and use.
   config.vm.provision "shell", inline: <<-SHELL
     apt-get update
-    apt-get install -y ruby ruby-dev make gcc python-pygments emacs
-    gem install jekyll bundler jekyll-feed minima pygments.rb
-    echo 'alias serve="jekyll server --host=0.0.0.0"' >> /etc/profile
-    cd /vagrant && bundle update
+    apt-get install -y nodejs nodejs-legacy npm
+    cd /vagrant && npm install
   SHELL
 end
