@@ -171,9 +171,9 @@ class AppNavDrawer extends Component {
             primaryTogglesNestedList={true}
             nestedItems={[
               <ListItem
-                primaryText="Bluetooth"
-                value="/components/auto-complete"
-                href="#/components/auto-complete"
+                primaryText="BluetoothLE"
+                value="/components/bluetoothle"
+                href="#/components/bluetoothle"
               />,
               <ListItem
                 primaryText="Arduino 101"

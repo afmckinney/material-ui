@@ -93,6 +93,7 @@ import Arduino101ProximitySensorPage from './gh-pages/pages/components/Arduino10
 import Arduino101RgbLcdPage from './gh-pages/pages/components/Arduino101/RgbLcd/Page';
 import Arduino101ServoPage from './gh-pages/pages/components/Arduino101/Servo/Page';
 
+import BluetoothLEPage from './gh-pages/pages/components/BluetoothLE/Page';
 
 //import AppBarPage from './gh-pages/pages/documentation/AppBar/Page';
 
@@ -130,7 +131,7 @@ const AppRoutes = (
     <Redirect from="components" to="/components/app-bar" />
     <Route path="components">
       <Route path="app-bar" component={AppBarPage} />
-      <Route path="auto-complete" component={AutoCompletePage} />
+      <Route path="bluetoothle" component={BluetoothLEPage} />
       <Route path="avatar" component={AvatarPage} />
       <Route path="bottom-navigation" component={BottomNavigationPage} />
       <Route path="badge" component={BadgePage} />
