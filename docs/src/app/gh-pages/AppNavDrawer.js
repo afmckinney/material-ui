@@ -231,60 +231,17 @@ class AppNavDrawer extends Component {
                   />,
                 ]}
               />,
-
               <ListItem
                 primaryText="Micro-bit"
                 primaryTogglesNestedList={true}
+	        value="/components/microbit"
+ 	        href="#/components/microbit"
                 nestedItems={[
                   <ListItem
-                    primaryText="Accelerometer"
-                    value="/components/checkbox"
-                    href="#/components/checkbox"
+                    primaryText="Introduction"
+                    value="/components/microbitcomponent"
+                    href="#/components/microbitcomponent"
                   />,
-                  <ListItem
-                    primaryText="Button"
-                    value="/components/radio-button"
-                    href="#/components/radio-button"
-                  />,
-                  <ListItem
-                    primaryText="IO Pin"
-                    value="/components/toggle"
-                    href="#/components/toggle"
-                  />,
-                  <ListItem
-                    primaryText="LED"
-                    value="/components/date-picker"
-                    href="#/components/date-picker"
-                  />,
-                  <ListItem
-                    primaryText="Magnetometer"
-                    value="/components/dialog"
-                    href="#/components/dialog"
-                  />,
-                  <ListItem
-                    primaryText="Temperature"
-                    value="/components/divider"
-                    href="#/components/divider"
-                  />,
-                  <ListItem
-                    primaryText="UART"
-                    value="/components/avatar"
-                    href="#/components/avatar"
-                  />,
-                ]}
-              />,
-            ]}
-          />
-
-          <ListItem
-            primaryText="Documentation"
-            primaryTogglesNestedList={true}
-            nestedItems={[
-              <ListItem primaryText="Introduction" value="/get-started/information" />,
-              <ListItem
-                primaryText="Micro-bit"
-                primaryTogglesNestedList={true}
-                nestedItems={[
                   <ListItem
                     primaryText="Accelerometer"
                     value="/components/microbitaccelerometer"
@@ -347,6 +304,13 @@ class AppNavDrawer extends Component {
                   />,
                 ]}
               />,
+            ]}
+          />
+          <ListItem
+            primaryText="Documentation"
+            primaryTogglesNestedList={true}
+            nestedItems={[
+              <ListItem primaryText="Introduction" value="/get-started/information" />,
             ]}
           />
 

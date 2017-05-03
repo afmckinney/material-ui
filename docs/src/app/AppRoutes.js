@@ -67,7 +67,8 @@ import RelatedProjects from './gh-pages/pages/discover-more/RelatedProjects';
 
 import StepperPage from './gh-pages/pages/components/Stepper/Page';
 
-import MicroBitPage from './gh-pages/pages/components/Microbit/Page';
+import MicroBitComponent from './gh-pages/pages/components/Microbit/Microbit_Component/Page';
+import MicroBitIntro from './gh-pages/pages/components/Microbit/Page';
 import MicroBitAccelerometerPage from './gh-pages/pages/components/Microbit/Microbit_Accelerometer/Page';
 import MicroBitButtonPage from './gh-pages/pages/components/Microbit/Microbit_Button/Page';
 import MicroBitDeviceInformationPage from './gh-pages/pages/components/Microbit/Microbit_Device_Information/Page';
@@ -156,7 +157,8 @@ const AppRoutes = (
       <Route path="time-picker" component={TimePickerPage} />
       <Route path="toggle" component={TogglePage} />
       <Route path="toolbar" component={ToolbarPage} />
-      <Route path="microbit" component={MicroBitPage} />
+      <Route path="microbit" component={MicroBitIntro} />
+      <Route path="microbitcomponent" component={MicroBitComponent} />
       <Route path="microbitaccelerometer" component={MicroBitAccelerometerPage} />
       <Route path="microbitbutton" component={MicroBitButtonPage} />
       <Route path="microbitdeviceinformation" component={MicroBitDeviceInformationPage} />
