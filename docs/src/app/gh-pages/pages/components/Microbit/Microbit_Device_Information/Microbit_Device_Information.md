@@ -1,8 +1,8 @@
-### Microbit_Device_Information
+# Microbit_Device_Information
 
 Component for Microbit_Device_Information
 
-#### Properties
+## Properties
 
 + <a name="BluetoothDevice"></a>`BluetoothDevice` – 
 
@@ -12,7 +12,7 @@ Component for Microbit_Device_Information
 
 ![set Microbit_Device_Information1 BluetoothDevice  to](blocks/Microbit_Device_Information.BluetoothDevice_setter.svg)
 
-#### Methods
+## Methods
 
 + <a name="ReadFirmwareRevisionString"></a>`ReadFirmwareRevisionString` – Method for ReadFirmwareRevisionString
 
@@ -34,7 +34,7 @@ Component for Microbit_Device_Information
 
 ![call Microbit_Device_Information1 ReadSerialNumberString](blocks/Microbit_Device_Information.ReadSerialNumberString.svg)
 
-#### Events
+## Events
 
 + <a name="FirmwareRevisionStringReceived"></a>`FirmwareRevisionStringReceived` – Event for FirmwareRevisionStringReceived
 

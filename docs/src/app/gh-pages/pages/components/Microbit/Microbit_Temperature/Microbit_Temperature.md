@@ -1,8 +1,8 @@
-### Microbit_Temperature
+# Microbit_Temperature
 
 Component for Microbit_Temperature
 
-#### Properties
+## Properties
 
 + <a name="BluetoothDevice"></a>`BluetoothDevice` – 
 
@@ -12,7 +12,7 @@ Component for Microbit_Temperature
 
 ![set Microbit_Temperature1 BluetoothDevice  to](blocks/Microbit_Temperature.BluetoothDevice_setter.svg)
 
-#### Methods
+## Methods
 
 + <a name="ReadTemperature"></a>`ReadTemperature` – Method for ReadTemperature
 
@@ -34,7 +34,7 @@ Component for Microbit_Temperature
 
 ![call Microbit_Temperature1 WriteTemperaturePeriodtemperature_period_value](blocks/Microbit_Temperature.WriteTemperaturePeriod.svg)
 
-#### Events
+## Events
 
 + <a name="TemperaturePeriodReceived"></a>`TemperaturePeriodReceived` – Event for TemperaturePeriodReceived
 

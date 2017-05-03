@@ -1,8 +1,8 @@
-### Microbit_Generic_Access
+# Microbit_Generic_Access
 
 Component for Microbit_Generic_Access
 
-#### Properties
+## Properties
 
 + <a name="BluetoothDevice"></a>`BluetoothDevice` – 
 
@@ -12,7 +12,7 @@ Component for Microbit_Generic_Access
 
 ![set Microbit_Generic_Access1 BluetoothDevice  to](blocks/Microbit_Generic_Access.BluetoothDevice_setter.svg)
 
-#### Methods
+## Methods
 
 + <a name="ReadAppearance"></a>`ReadAppearance` – Method for ReadAppearance
 
@@ -30,7 +30,7 @@ Component for Microbit_Generic_Access
 
 ![call Microbit_Generic_Access1 WriteDeviceNameName](blocks/Microbit_Generic_Access.WriteDeviceName.svg)
 
-#### Events
+## Events
 
 + <a name="AppearanceReceived"></a>`AppearanceReceived` – Event for AppearanceReceived
 

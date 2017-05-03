@@ -1,8 +1,8 @@
-### Microbit_Button
+# Microbit_Button
 
 Component for Microbit_Button
 
-#### Properties
+## Properties
 
 + <a name="BluetoothDevice"></a>`BluetoothDevice` – 
 
@@ -12,7 +12,7 @@ Component for Microbit_Button
 
 ![set Microbit_Button1 BluetoothDevice  to](blocks/Microbit_Button.BluetoothDevice_setter.svg)
 
-#### Methods
+## Methods
 
 + <a name="ReadButtonAState"></a>`ReadButtonAState` – Method for ReadButtonAState
 
@@ -38,7 +38,7 @@ Component for Microbit_Button
 
 ![call Microbit_Button1 StopButtonBStateUpdates](blocks/Microbit_Button.StopButtonBStateUpdates.svg)
 
-#### Events
+## Events
 
 + <a name="ButtonAStateReceived"></a>`ButtonAStateReceived` – Event for ButtonAStateReceived
 

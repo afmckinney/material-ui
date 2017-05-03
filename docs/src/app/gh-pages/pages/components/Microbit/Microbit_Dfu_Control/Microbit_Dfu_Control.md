@@ -1,8 +1,8 @@
-### Microbit_Dfu_Control
+# Microbit_Dfu_Control
 
 Component for Microbit_Dfu_Control
 
-#### Properties
+## Properties
 
 + <a name="BluetoothDevice"></a>`BluetoothDevice` – 
 
@@ -12,7 +12,7 @@ Component for Microbit_Dfu_Control
 
 ![set Microbit_Dfu_Control1 BluetoothDevice  to](blocks/Microbit_Dfu_Control.BluetoothDevice_setter.svg)
 
-#### Methods
+## Methods
 
 + <a name="ReadDFUControl"></a>`ReadDFUControl` – Method for ReadDFUControl
 
@@ -22,7 +22,7 @@ Component for Microbit_Dfu_Control
 
 ![call Microbit_Dfu_Control1 WriteDFUControlDFU_Control](blocks/Microbit_Dfu_Control.WriteDFUControl.svg)
 
-#### Events
+## Events
 
 + <a name="DFUControlReceived"></a>`DFUControlReceived` – Event for DFUControlReceived
 

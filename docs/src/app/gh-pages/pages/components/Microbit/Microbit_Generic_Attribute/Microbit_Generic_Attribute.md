@@ -1,8 +1,8 @@
-### Microbit_Generic_Attribute
+# Microbit_Generic_Attribute
 
 Component for Microbit_Generic_Attribute
 
-#### Properties
+## Properties
 
 + <a name="BluetoothDevice"></a>`BluetoothDevice` – 
 

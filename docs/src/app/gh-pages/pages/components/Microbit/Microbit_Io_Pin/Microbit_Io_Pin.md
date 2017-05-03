@@ -1,8 +1,8 @@
-### Microbit_Io_Pin
+# Microbit_Io_Pin
 
 Component for Microbit_Io_Pin
 
-#### Properties
+## Properties
 
 + <a name="BluetoothDevice"></a>`BluetoothDevice` – 
 
@@ -12,7 +12,7 @@ Component for Microbit_Io_Pin
 
 ![set Microbit_Io_Pin1 BluetoothDevice  to](blocks/Microbit_Io_Pin.BluetoothDevice_setter.svg)
 
-#### Methods
+## Methods
 
 + <a name="ReadPinADConfiguration"></a>`ReadPinADConfiguration` – Method for ReadPinADConfiguration
 
@@ -50,7 +50,7 @@ Component for Microbit_Io_Pin
 
 ![call Microbit_Io_Pin1 WritePinIOConfigurationPin_IO_Config_Value](blocks/Microbit_Io_Pin.WritePinIOConfiguration.svg)
 
-#### Events
+## Events
 
 + <a name="PinADConfigurationReceived"></a>`PinADConfigurationReceived` – Event for PinADConfigurationReceived
 
