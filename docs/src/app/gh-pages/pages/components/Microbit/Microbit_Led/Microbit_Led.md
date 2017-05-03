@@ -1,8 +1,8 @@
-### Microbit_Led
+# Microbit_Led
 
 Component for Microbit_Led
 
-#### Properties
+## Properties
 
 + <a name="BluetoothDevice"></a>`BluetoothDevice` – 
 
@@ -12,7 +12,7 @@ Component for Microbit_Led
 
 ![set Microbit_Led1 BluetoothDevice  to](blocks/Microbit_Led.BluetoothDevice_setter.svg)
 
-#### Methods
+## Methods
 
 + <a name="ReadLEDMatrixState"></a>`ReadLEDMatrixState` – Method for ReadLEDMatrixState
 
@@ -34,7 +34,7 @@ Component for Microbit_Led
 
 ![call Microbit_Led1 WriteScrollingDelayScrolling_Delay_Value](blocks/Microbit_Led.WriteScrollingDelay.svg)
 
-#### Events
+## Events
 
 + <a name="LEDMatrixStateReceived"></a>`LEDMatrixStateReceived` – Event for LEDMatrixStateReceived
 

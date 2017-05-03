@@ -1,8 +1,8 @@
-### Microbit_Magnetometer
+# Microbit_Magnetometer
 
 Component for Microbit_Magnetometer
 
-#### Properties
+## Properties
 
 + <a name="BluetoothDevice"></a>`BluetoothDevice` – 
 
@@ -12,7 +12,7 @@ Component for Microbit_Magnetometer
 
 ![set Microbit_Magnetometer1 BluetoothDevice  to](blocks/Microbit_Magnetometer.BluetoothDevice_setter.svg)
 
-#### Methods
+## Methods
 
 + <a name="ReadMagnetometerBearing"></a>`ReadMagnetometerBearing` – Method for ReadMagnetometerBearing
 
@@ -46,7 +46,7 @@ Component for Microbit_Magnetometer
 
 ![call Microbit_Magnetometer1 WriteMagnetometerPeriodMagnetometer_Period](blocks/Microbit_Magnetometer.WriteMagnetometerPeriod.svg)
 
-#### Events
+## Events
 
 + <a name="MagnetometerBearingReceived"></a>`MagnetometerBearingReceived` – Event for MagnetometerBearingReceived
 

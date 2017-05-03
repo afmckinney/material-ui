@@ -67,19 +67,33 @@ import RelatedProjects from './gh-pages/pages/discover-more/RelatedProjects';
 
 import StepperPage from './gh-pages/pages/components/Stepper/Page';
 
-import MicroBitPage from './gh-pages/pages/components/Microbit/Page';
+import MicroBitComponent from './gh-pages/pages/components/Microbit/Microbit_Component/Page';
+import MicroBitIntro from './gh-pages/pages/components/Microbit/Page';
 import MicroBitAccelerometerPage from './gh-pages/pages/components/Microbit/Microbit_Accelerometer/Page';
 import MicroBitButtonPage from './gh-pages/pages/components/Microbit/Microbit_Button/Page';
 import MicroBitDeviceInformationPage from './gh-pages/pages/components/Microbit/Microbit_Device_Information/Page';
 import MicroBitDfuControlPage from './gh-pages/pages/components/Microbit/Microbit_Dfu_Control/Page';
 import MicroBitEventPage from './gh-pages/pages/components/Microbit/Microbit_Event/Page';
 import MicroBitGenericAccessPage from './gh-pages/pages/components/Microbit/Microbit_Generic_Access/Page';
-import MicroBitGenericAttributePage from './gh-pages/pages/components/Microbit/Microbit_Generic_attribute/Page';
+import MicroBitGenericAttributePage from './gh-pages/pages/components/Microbit/Microbit_Generic_Attribute/Page';
 import MicroBitIoPinPage from './gh-pages/pages/components/Microbit/Microbit_Io_Pin/Page';
 import MicroBitLedPage from './gh-pages/pages/components/Microbit/Microbit_Led/Page';
 import MicroBitMagnetometerPage from './gh-pages/pages/components/Microbit/Microbit_Magnetometer/Page';
 import MicroBitTemperaturePage from './gh-pages/pages/components/Microbit/Microbit_Temperature/Page';
 import MicroBitUartPage from './gh-pages/pages/components/Microbit/Microbit_Uart/Page';
+
+import Arduino101AccelerometerPage from './gh-pages/pages/components/Arduino101/Accelerometer/Page';
+import Arduino101ButtonPage from './gh-pages/pages/components/Arduino101/Button/Page';
+import Arduino101GyroscopePage from './gh-pages/pages/components/Arduino101/Gyroscope/Page';
+import Arduino101HumidityPage from './gh-pages/pages/components/Arduino101/Humidity/Page';
+import Arduino101LedPage from './gh-pages/pages/components/Arduino101/Led/Page';
+import Arduino101LightSensorPage from './gh-pages/pages/components/Arduino101/LightSensor/Page';
+import Arduino101MoisturePage from './gh-pages/pages/components/Arduino101/Moisture/Page';
+import Arduino101ProximitySensorPage from './gh-pages/pages/components/Arduino101/ProximitySensor/Page';
+import Arduino101RgbLcdPage from './gh-pages/pages/components/Arduino101/RgbLcd/Page';
+import Arduino101ServoPage from './gh-pages/pages/components/Arduino101/Servo/Page';
+
+import BluetoothLEPage from './gh-pages/pages/components/BluetoothLE/Page';
 
 //import AppBarPage from './gh-pages/pages/documentation/AppBar/Page';
 
@@ -117,7 +131,7 @@ const AppRoutes = (
     <Redirect from="components" to="/components/app-bar" />
     <Route path="components">
       <Route path="app-bar" component={AppBarPage} />
-      <Route path="auto-complete" component={AutoCompletePage} />
+      <Route path="bluetoothle" component={BluetoothLEPage} />
       <Route path="avatar" component={AvatarPage} />
       <Route path="bottom-navigation" component={BottomNavigationPage} />
       <Route path="badge" component={BadgePage} />
@@ -156,7 +170,8 @@ const AppRoutes = (
       <Route path="time-picker" component={TimePickerPage} />
       <Route path="toggle" component={TogglePage} />
       <Route path="toolbar" component={ToolbarPage} />
-      <Route path="microbit" component={MicroBitPage} />
+      <Route path="microbit" component={MicroBitIntro} />
+      <Route path="microbitcomponent" component={MicroBitComponent} />
       <Route path="microbitaccelerometer" component={MicroBitAccelerometerPage} />
       <Route path="microbitbutton" component={MicroBitButtonPage} />
       <Route path="microbitdeviceinformation" component={MicroBitDeviceInformationPage} />
@@ -169,6 +184,16 @@ const AppRoutes = (
       <Route path="microbitmagnetometer" component={MicroBitMagnetometerPage} />
       <Route path="microbittemperature" component={MicroBitTemperaturePage} />
       <Route path="microbituart" component={MicroBitUartPage} />
+      <Route path="arduinoaccelerometer" component={Arduino101AccelerometerPage} />
+      <Route path="arduinobutton" component={Arduino101ButtonPage} />
+      <Route path="arduinogyroscope" component={Arduino101GyroscopePage} />
+      <Route path="arduinohumidity" component={Arduino101HumidityPage} />
+      <Route path="arduinoled" component={Arduino101LedPage} />
+      <Route path="arduinolightsensor" component={Arduino101LightSensorPage} />
+      <Route path="arduinomoisture" component={Arduino101MoisturePage} />
+      <Route path="arduinoproximitysensor" component={Arduino101ProximitySensorPage} />
+      <Route path="arduinorgblcd" component={Arduino101RgbLcdPage} />
+      <Route path="arduinoservo" component={Arduino101ServoPage} />
     </Route>
 
     <Redirect from="discover-more" to="/discover-more/community" />

@@ -1,8 +1,8 @@
-### Microbit_Uart
+# Microbit_Uart
 
 Component for Microbit_Uart
 
-#### Properties
+## Properties
 
 + <a name="BluetoothDevice"></a>`BluetoothDevice` – 
 
@@ -12,7 +12,7 @@ Component for Microbit_Uart
 
 ![set Microbit_Uart1 BluetoothDevice  to](blocks/Microbit_Uart.BluetoothDevice_setter.svg)
 
-#### Methods
+## Methods
 
 + <a name="RequestTXCharacteristic"></a>`RequestTXCharacteristic` – Method for RequestTXCharacteristic
 
@@ -26,7 +26,7 @@ Component for Microbit_Uart
 
 ![call Microbit_Uart1 WriteRXCharacteristicUART_TX](blocks/Microbit_Uart.WriteRXCharacteristic.svg)
 
-#### Events
+## Events
 
 + <a name="TXCharacteristicReceived"></a>`TXCharacteristicReceived` – Event for TXCharacteristicReceived
 

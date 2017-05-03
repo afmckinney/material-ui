@@ -1,8 +1,8 @@
-### Microbit_Event
+# Microbit_Event
 
 Component for Microbit_Event
 
-#### Properties
+## Properties
 
 + <a name="BluetoothDevice"></a>`BluetoothDevice` – 
 
@@ -12,7 +12,7 @@ Component for Microbit_Event
 
 ![set Microbit_Event1 BluetoothDevice  to](blocks/Microbit_Event.BluetoothDevice_setter.svg)
 
-#### Methods
+## Methods
 
 + <a name="ReadMicroBitEvent"></a>`ReadMicroBitEvent` – Method for ReadMicroBitEvent
 
@@ -46,7 +46,7 @@ Component for Microbit_Event
 
 ![call Microbit_Event1 WriteClientRequirementsClient_Requirements_Value](blocks/Microbit_Event.WriteClientRequirements.svg)
 
-#### Events
+## Events
 
 + <a name="MicroBitEventReceived"></a>`MicroBitEventReceived` – Event for MicroBitEventReceived
 
