@@ -82,6 +82,18 @@ import MicroBitMagnetometerPage from './gh-pages/pages/components/Microbit/Micro
 import MicroBitTemperaturePage from './gh-pages/pages/components/Microbit/Microbit_Temperature/Page';
 import MicroBitUartPage from './gh-pages/pages/components/Microbit/Microbit_Uart/Page';
 
+import Arduino101AccelerometerPage from './gh-pages/pages/components/Arduino101/Accelerometer/Page';
+import Arduino101ButtonPage from './gh-pages/pages/components/Arduino101/Button/Page';
+import Arduino101GyroscopePage from './gh-pages/pages/components/Arduino101/Gyroscope/Page';
+import Arduino101HumidityPage from './gh-pages/pages/components/Arduino101/Humidity/Page';
+import Arduino101LedPage from './gh-pages/pages/components/Arduino101/Led/Page';
+import Arduino101LightSensorPage from './gh-pages/pages/components/Arduino101/LightSensor/Page';
+import Arduino101MoisturePage from './gh-pages/pages/components/Arduino101/Moisture/Page';
+import Arduino101ProximitySensorPage from './gh-pages/pages/components/Arduino101/ProximitySensor/Page';
+import Arduino101RgbLcdPage from './gh-pages/pages/components/Arduino101/RgbLcd/Page';
+import Arduino101ServoPage from './gh-pages/pages/components/Arduino101/Servo/Page';
+
+
 //import AppBarPage from './gh-pages/pages/documentation/AppBar/Page';
 
 /**
@@ -171,6 +183,16 @@ const AppRoutes = (
       <Route path="microbitmagnetometer" component={MicroBitMagnetometerPage} />
       <Route path="microbittemperature" component={MicroBitTemperaturePage} />
       <Route path="microbituart" component={MicroBitUartPage} />
+      <Route path="arduinoaccelerometer" component={Arduino101AccelerometerPage} />
+      <Route path="arduinobutton" component={Arduino101ButtonPage} />
+      <Route path="arduinogyroscope" component={Arduino101GyroscopePage} />
+      <Route path="arduinohumidity" component={Arduino101HumidityPage} />
+      <Route path="arduinoled" component={Arduino101LedPage} />
+      <Route path="arduinolightsensor" component={Arduino101LightSensorPage} />
+      <Route path="arduinomoisture" component={Arduino101MoisturePage} />
+      <Route path="arduinoproximitysensor" component={Arduino101ProximitySensorPage} />
+      <Route path="arduinorgblcd" component={Arduino101RgbLcdPage} />
+      <Route path="arduinoservo" component={Arduino101ServoPage} />
     </Route>
 
     <Redirect from="discover-more" to="/discover-more/community" />

@@ -181,53 +181,53 @@ class AppNavDrawer extends Component {
                 nestedItems={[
                   <ListItem
                     primaryText="Accelerometer"
-                    value="/components/checkbox"
-                    href="#/components/checkbox"
+                    value="/components/arduinoaccelerometer"
+                    href="#/components/arduinoaccelerometer"
                   />,
                   <ListItem
                     primaryText="Button"
-                    value="/components/radio-button"
-                    href="#/components/radio-button"
+                    value="/components/arduinobutton"
+                    href="#/components/arduinobutton"
                   />,
                   <ListItem
                     primaryText="Gyroscope"
-                    value="/components/toggle"
-                    href="#/components/toggle"
+                    value="/components/arduinogyroscope"
+                    href="#/components/arduinogyroscope"
                   />,
                   <ListItem
                     primaryText="Humidity"
-                    value="/components/dialog"
-                    href="#/components/dialog"
+                    value="/components/arduinohumidity"
+                    href="#/components/arduinohumidity"
                   />,
                   <ListItem
                     primaryText="LED"
-                    value="/components/divider"
-                    href="#/components/divider"
+                    value="/components/arduinoled"
+                    href="#/components/arduinoled"
                   />,
                   <ListItem
-                    primaryText="Light sensor"
-                    value="/components/drawer"
-                    href="#/components/drawer"
+                    primaryText="Light Sensor"
+                    value="/components/arduinolightsensor"
+                    href="#/components/arduinolightsensor"
                   />,
                   <ListItem
-                    primaryText="Moisture sensor"
-                    value="/components/grid-list"
-                    href="#/components/grid-list"
+                    primaryText="Moisture"
+                    value="/components/arduinomoisture"
+                    href="#/components/arduinomoisture"
                   />,
                   <ListItem
-                    primaryText="Proximity sensor"
-                    value="/components/card"
-                    href="#/components/card"
+                    primaryText="Proximity Sensor"
+                    value="/components/arduinoproximitysensor"
+                    href="#/components/arduinoproximitysensor"
                   />,
                   <ListItem
-                    primaryText="RGB LCD"
-                    value="/components/chip"
-                    href="#/components/chip"
+                    primaryText="RGB Lcd"
+                    value="/components/arduinorgblcd"
+                    href="#/components/arduinorgblcd"
                   />,
                   <ListItem
                     primaryText="Servo"
-                    value="/components/date-picker"
-                    href="#/components/date-picker"
+                    value="/components/arduinoservo"
+                    href="#/components/arduinoservo"
                   />,
                 ]}
               />,
